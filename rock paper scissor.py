@@ -1,5 +1,5 @@
 import random
-user=int(input("enter  ur choice(rock,paper,scissors):"))
+user =int(input("enter  ur choice(rock,paper,scissors):"))
 com_choice=random.randint(0,2)
 if user == 0 and com_choice == 0:
     print("tie")
