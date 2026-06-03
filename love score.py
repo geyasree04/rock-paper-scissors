@@ -1,0 +1,7 @@
+name1=input("enter the first person name:")
+name2=input("enter the second person name:")
+name1.lower()
+name2.lower()
+r1=name1.count('t') + name2.count('t') + name1.count('r') + name2.count('r') + name1.count('u') + name2.count('u') + name1.count('e') + name2.count('e')
+r2=name1.count('l') + name2.count('l') + name1.count('o') + name2.count('o') + name1.count('v') + name2.count('v') + name1.count('e')  + name2.count('e')
+print(f"love score is {str(r1)}{str(r2)}%")
